@@ -1,0 +1,398 @@
+---
+title: "STA305 - Final Report"
+format: pdf
+editor: visual
+---
+
+# Abstract:
+
+This study examines whether cannabis consumption method (tea, smoking, or none) and gender affect changes in IQ, while controlling for baseline IQ and age. Using *The Islands* virtual population simulator, participants were randomly assigned to one of six treatments based on gender and cannabis use. The experiment requires participants completed an IQ test before using cannabis and again after. A repeated-measures two-way ANOVA was used to assess the effects. Results showed no significant impact of gender or cannabis consumption method on IQ changes, suggesting that short-term cognitive performance is not influenced by these factors under controlled conditions.
+
+# Introduction:
+
+As cannabis usage becomes more common and accepted, discussions about its effects on thinking and intelligence continue. While many studies have examined how cannabis affects the brain over time, most focus on teenagers rather than young adults. Additionally, little research explores whether different ways of consuming cannabis, such as smoking versus drinking it as tea will lead to different effects on thinking. Another overlooked factor is whether men and women process cannabis differently, which could influence its impact on brain function. This study addresses these gaps by examining how cannabis use affects cognitive performance in young adults aged 18 to 30, considering both gender differences and consumption methods.
+
+To investigate this, we conducted a controlled experiment in The Islands, a virtual population simulation. Participants were randomly assigned to one of six groups based on gender and how they consumed cannabis: tea, smoked cannabis (reefer), or a control group that did not use cannabis. Each participant took an IQ test before and after cannabis use, allowing us to measure changes in cognitive performance while accounting for factors like baseline IQ and age.
+
+We collected 216 observations using randomization by randomly selecting participants and locations, and applied a balanced blocking technique to evenly distribute participants across all treatment groups. The data was analyzed using a repeated-measures two-way ANOVA to evaluate the main effects and interactions between gender and cannabis consumption method, while also accounting for within subject variability when it comes to repeated measures design.
+
+All in all, the goal of this study is to examine how cannabis consumption method and gender affect cognitive performance, measured by changes in IQ before and after use.
+
+# Methodology:
+
+The experiment was conducted through *The Islands*, a virtual population simulator where random humans required to perform **Intelligence Tests** under cannabis consumption and this is a **cross-over** and **within-subject** study.
+
+During February 9th to February 25th, 2025, our researchers accessed the virtual population simulator to conduct the experiment. Our researcher scrambles through the three available islands: Providence, Bonne Sante and Ironbard. Convenient sampling were used to satisfy our **Balanced Design** principle where we randomly select a participant for the pre-treatment IQ test until we have enough participants that satisfy the age and intelligent requirement to ensure **Balanced Blocking Design** principle. Below are the in-depth requirements for data collection:
+
+| By Age Group                | Number of participants required for each age group | Numbers of participants required for each age |
+|-----------------------------|----------------------------------------------------|-----------------------------------------------|
+| Group 1: 18 to 24 years old | 108 participants                                   | 54 Males + 54 Males                           |
+| Group 2: 25 to 30 years old | 108 participants                                   | 54 Males + 54 Males                           |
+| **Total**                   | 216 participants                                   |                                               |
+
+Participants IQ test will be classified through a standard as follow:
+
+-   **IQ Class 1:** Low IQ containing participants IQ Score ranging from **70 to 89**
+
+-   **IQ Class 2:** Average IQ containing participants IQ score ranging from **90 to 109**
+
+-   **IQ Class 3:** High IQ containing participants IQ score ranging from **110 to 129**
+
+The researchers then perform convenience sampling by assign IQ test to random participant until gather enough subjects as required.
+
+**Summary**: For each treatment category, the study requires 36 participants, divided equally among males and females across two age groups (18-24 and 25-30 years). Each age group within both genders must include participants from the three IQ classes, ensuring a balanced representation across all categories.
+
+\[Optional\]: Refer to the following table as guideline of the data collecting process:
+
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| Type of Treatment                  | Number of participants required per treatment | Number of participants required by IQ Class |
++====================================+===============================================+=============================================+
+| Treatment 1: Male + Tea Cannabis   | 36 participants                               | IQ Class 1: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 1: 6 Male (25-30yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Male (25-30yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Male (25-30yr)                |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| Treatment 2: Male + Reefer         | 36 participants                               | IQ Class 1: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 1: 6 Male (25-30yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Male (25-30yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Male (25-30yr)                |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| Treatment 3: Male + Control        | 36 participants                               | IQ Class 1: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Male (18-24yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 1: 6 Male (25-30yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Male (25-30yr)                |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Male (25-30yr)                |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| Treatment 4: Female + Tea Cannabis | 36 participants                               | IQ Class 1: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 1: 6 Female (25-30yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Female (25-30yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Female (25-30yr)              |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| Treatment 5: Female + Reefer       | 36 participants                               | IQ Class 1: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 1: 6 Female (25-30yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Female (25-30yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Female (25-30yr)              |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| Treatment 6: Female +              | 36 participants                               | IQ Class 1: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Female (18-24yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 1: 6 Female (25-30yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 2: 6 Female (25-30yr)              |
+|                                    |                                               |                                             |
+|                                    |                                               | IQ Class 3: 6 Female (25-30yr)              |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+| **Total**                          | **216 participants**                          |                                             |
++------------------------------------+-----------------------------------------------+---------------------------------------------+
+
+Due to the randomness of gathering pre-treatment IQ test, we collected 382 results in total to obtain the necessary amount of qualified participants from the above table.
+
+The researchers used **stratified random sampling** to shuffle the dataset and select 216 participants from a pool of 382, ensuring **balanced** representation across treatment groups while maintaining **randomness**. With participants assigned to their respective treatments, the experiment continued with proper cannabis consumption followed by post-treatment IQ testing. As both Reefers and Cannabis are provided by the simulation, the quality of cannabis was consistent and controlled throughout the study.
+
+# Analysis:
+
+### **Assumptions Validation:**
+
+Once the data is imported into R, it will be restructured from wide to long data format. This process allows each subject to have a **Pre** and **Post** measure of IQ result. In this format, each row corresponds to one measurement occasion and the researcher added another categorical variable that indicates whether the measurement is Pre or Post.
+
+In order to be aligned with the research, a linear model with the IQ result with response variable is fitted against two predictors: gender of a participant, and the method of cannabis consumed. In addition, this linear model also accounts the interaction terms between participant gender and method of cannabis consumed. The model will now need to goes under assumption validation process.
+
+## **Independence**
+
+This assumption is satisfied because the experiment is carried on a one-on-one basis. Therefore, each participant or testing unit is completely independent of each other.
+
+## **Normality:**
+
+After running the **Shapiro-Wilk** test, the p values is less than the alpha level therefore we rejected the null hypothesis and concluded that the assumption of normality is violated. The QQ plot also confirm this assumption validation with left and right tails deviates away from the fitted line. However, we decided to proceed with the analysis.
+
+| Test                        | Statistic | p-value   |
+|-----------------------------|-----------|-----------|
+| Shapiro-Wilk normality test | 0.96924   | 6.955e-08 |
+
+![](Pic10.png){#fig-qq}
+
+## **Homogeneity of Variance:**
+
+**Bartlett** test was used to validate the homogeneity of variances, the p-value greater than the 5% significance level. Therefore we failed to reject the null hypothesis and concluded that the assumptions are satisfied. The residual versus fitted plot also confirm that this assumption is satisfied
+
+| Test                                      | Statistic | df  | p-value |
+|-------------------------------------------|-----------|-----|---------|
+| Bartlett test of homogeneity of variances | 2.4101    | 5   | 0.79    |
+
+![](pic%2011.png)
+
+### Summary of the regression model
+
+| Coefficients:                 | Estimate | Std.Error | t-value | p-value |
+|-------------------------------|----------|-----------|---------|---------|
+| (Intercept)                   | 101.5556 | 1.7706    | 57.358  | \<2e-16 |
+| MethodRefers                  | -0.6389  | 2.5039    | -0.255  | 0.799   |
+| MethodTea Cannabis            | 0.6806   | 2.5039    | 0.272   | 0.786   |
+| GenderMale                    | -3.2917  | 2.5039    | -1.315  | 0.189   |
+| MethodRefers:GenderMale       | 0.4583   | 3.5411    | 0.129   | 0.897   |
+| MethodTea Cannabis:GenderMale | 0.4306   | 3.5411    | 0.122   | 0.903   |
+
+| Result                  |                                         |
+|-------------------------|-----------------------------------------|
+| Residual Standard Error | 15.02 on 426 degrees of freedom         |
+| Multiple R-squared      | 0.01133                                 |
+| Adjusted R-squared      | -0.0002715                              |
+| F-Statistic             | 0.9766 on 5 and 426 degrees of freedome |
+| p-value                 | 0.4317                                  |
+
+## **Repeated Two-Way ANOVA Results**
+
+This methods is suitable for cross-over study where there are more than two factors.
+
+Error: ID
+
+|               | Df  | Sum Sq | Mean Sq | F value | Pr(\>F) |
+|---------------|-----|--------|---------|---------|---------|
+| Method        | 2   | 142    | 71.2    | 0.159   | 0.853   |
+| Gender        | 1   | 969    | 969.0   | 2.160   | 0.143   |
+| Method:Gender | 2   | 5      | 2.7     | 0.006   | 0.994   |
+| Residuals     | 208 | 93329  | 448.7   |         |         |
+
+The Error: ID table is a two-way ANOVA that analyzes each participant individually, without accounting for repeated measures. It evaluates the effects of Method, Gender, and their interaction on IQ scores. The results show that none of these variables have a significant impact on IQ.
+
+Error: ID:Time
+
+|                    | Df  | Sum Sq | Mean Sq | F value | Pr(\>F) |
+|--------------------|-----|--------|---------|---------|---------|
+| Time               | 1   | 13.7   | 13.72   | 1.086   | 0.299   |
+| Method:Time        | 2   | 7.9    | 3.97    | 0.314   | 0.731   |
+| Gender:Time        | 1   | 33.9   | 33.89   | 2.681   | 0.103   |
+| Method:Gender:Time | 2   | 2.9    | 1.45    | 0.115   | 0.892   |
+| Residuals          | 208 | 2629.8 | 12.64   |         |         |
+
+The Error: ID:Time table is a two-way ANOVA that accounts for changes in each participant’s IQ over time. The results show no significant effect of Time (the repeated measure) or its interactions with cannabis consumption method and/or gender on IQ scores.
+
+Error: Within
+
+|             | Df  | Sum Sq | Mean Sq | F value | Pr(\>F) |
+|-------------|-----|--------|---------|---------|---------|
+| Method      | 1   | 20.25  | 20.25   | 0.405   | 0.59    |
+| Method:Time | 1   | 0.25   | 0.25    | 0.005   | 0.95    |
+| Residuals   | 2   | 100.00 | 50.00   |         |         |
+
+The Error: Within table measures variability within participants based on repeated observations, focusing on the effect of cannabis consumption method. The results, with a p-value above the 5% significance level, confirm that the method of consumption does not have a significant impact on IQ scores.
+
+# Discussion/Result:
+
+Looking at the below box plots, the average change in IQ result is close to zero across gender and different method consumption:
+
+![](boxplot%20gender.png){fig-align="center" width="549" height="310"}
+
+![](boxplot%20treatment.png){fig-align="center" width="548" height="310"}
+
+Overall, the ANOVA results showed no significant effects of the independent variables: Method and Gender on participants' IQ scores over time. All p-values were above the 5% significance level, supporting the null hypothesis that neither cannabis consumption method nor gender significantly influences IQ. Additionally, the data did not meet the normality assumption, indicating that a non-parametric alternative may be more appropriate for future analysis to gain clearer insights.
+
+# Limitation:
+
+One clear limitation of this study is the complexity of the chosen analysis model. While the repeated measures two-way ANOVA is well suited for our design, its results can be difficult to interpret.
+
+Additionally, the data did not meet the assumption of normality, indicating the need for further research using a non-parametric alternative to validate the findings. Although applying additional transformations to the variables might help meet the assumption, this approach is more complex and requires further investigation.
+
+Another limitation was the lack of an appropriate substitute for the control group. Initially, we proposed using non-cannabis cigarettes as a placebo, but the simulation did not support this option. As a result, our control group consisted of participants who did not consume anything before retaking the IQ test. This constraint limited our study to only two main treatment groups, which may have contributed to the lack of strong observed effects.
+
+# Conclusion:
+
+The study explores the effects of cannabis consumption on cognitive performance particularly focusing on different methods of cannabis intake and gender. Despite the initial hypothesis that various method of cannabis consumption and gender will influence cognitive or intelligent abilities, the experiment revealed no significant evidence to backed it up.
+
+In addition, the study concluded that method of cannabis consumer and gender does not impact or alter IQ outcomes under controlled environment. This holds substantial implications for broader study on effect of addictive drugs.
+
+These insights can be used to guide further research in similar settings, encouraging deeper investigation into other potential factors that could affect an individual cognitive abilities that were not covered in this study.
+
+:-)
+
+# Appendix:
+
+```{r}
+#| eval: false
+#Loading Libraries
+library(tidyverse)
+library(ggplot2)
+library(dbplyr)
+library(dplyr)
+library(readr)
+library(ggpubr)
+library(emmeans)
+library(magrittr)
+
+#Load Data
+data = read.csv('Participants List cleaned.csv', header = TRUE)
+male_data = subset(data, data$Gender == 'Male')
+female_data = subset(data, data$Gender == 'Female')
+
+#Splitting data by genders
+male_data = subset(data,data$Gender == 'Male')
+female_data = subset(data,data$Gender == 'Female')
+
+#Box plots etc.
+# Quantitative Summary Statistics for Data
+
+male_ages = as.integer(male_data$Age)
+female_ages = as.integer(female_data$Age)
+male_pre_iq = as.integer(male_data$Pre.IQ.Test.Result)
+female_pre_iq = as.integer(female_data$Pre.IQ.Test.Result)
+male_post_iq = as.integer(male_data$Post.IQ.Test.Result)
+female_post_iq = as.integer(female_data$Post.IQ.Test.Result)
+
+summary(male_ages, na.rm = TRUE)
+summary(female_ages, na.rm = TRUE)
+summary(male_pre_iq, na.rm = TRUE)
+summary(female_pre_iq, na.rm = TRUE)
+summary(male_post_iq, na.rm = TRUE)
+summary(female_post_iq, na.rm = TRUE)
+
+IQR(male_ages, na.rm = TRUE)
+IQR(female_ages, na.rm = TRUE)
+IQR(male_pre_iq, na.rm = TRUE)
+IQR(female_pre_iq, na.rm = TRUE)
+IQR(male_post_iq, na.rm = TRUE)
+IQR(female_post_iq, na.rm = TRUE)
+
+sd(male_ages, na.rm = TRUE)
+sd(female_ages, na.rm = TRUE)
+sd(male_pre_iq, na.rm = TRUE)
+sd(female_pre_iq, na.rm = TRUE)
+sd(male_post_iq, na.rm = TRUE)
+sd(female_post_iq, na.rm = TRUE)
+
+# Qualitative
+num_men = sum(data$Gender == 'Male')
+num_men
+num_female = sum(data$Gender == 'Female')
+num_female
+
+num_pre_iqclass_1 = sum(data$Pre.IQ.Class == 'Class 1')
+num_pre_iqclass_1
+num_pre_iqclass_2 = sum(data$Pre.IQ.Class == 'Class 2')
+num_pre_iqclass_2
+num_pre_iqclass_3 = sum(data$Pre.IQ.Class == 'Class 3')
+num_pre_iqclass_3
+
+num_postiq_class_1 = sum(data$Post.IQ.Class == 'Class 1')
+num_postiq_class_1
+num_postiq_class_2 = sum(data$Post.IQ.Class == 'Class 2')
+num_postiq_class_2
+num_postiq_class_3 = sum(data$Post.IQ.Class == 'Class 3')
+num_postiq_class_3
+num_postiq_class_out_of_range = sum(data$Post.IQ.Class == 'Out of Range')
+num_postiq_class_out_of_range
+
+# Plotting the Relevant Data
+
+iq_change = as.numeric(data$Pre.IQ.Test.Result) - as.numeric(data$Post.IQ.Test.Result)
+ggplot(data, aes(x = data$Treatment.Variant, y = iq_change, fill = data$Treatment.Variant))  +
+  geom_boxplot() +
+  labs(title = "Boxplot of IQ Change by Treatment Group",
+       x = "Treatment Group",
+       y = "IQ Change") +
+  theme_minimal()
+
+ggplot(data, aes(x = data$Gender, y = iq_change, fill = data$Gender))  +
+  geom_boxplot() +
+  labs(title = "Boxplot of IQ Change by Gender Group",
+       x = "Gender Group",
+       y = "IQ Change") +
+  theme_minimal()
+
+```
+
+```{r}
+#| eval: false
+#Prepare the dataframe for repeated measure two way anova
+# Rename relevant columns manually for easier handling
+data <- data %>%
+  rename(
+    PreIQ = 'Pre.IQ.Test.Result',
+    PostIQ = 'Post.IQ.Test.Result',
+    Method = 'Treatment.Variant',
+    ID = 'Participant.Name'
+  )
+
+# Convert from wide to long format
+long_data <- data %>%
+  pivot_longer(cols = c("PreIQ", "PostIQ"),
+               names_to = "Time",
+               values_to = "IQ") %>%
+  mutate(
+    Time = factor(Time, levels = c("PreIQ", "PostIQ")),
+    Gender = factor(Gender),
+    Method = factor(Method),
+    ID = factor(ID)
+  )
+```
+
+```{r}
+#| eval: false
+#Build Linear Model
+model <- lm(IQ~ Method + Gender + Gender*Method, data=long_data)
+summary(model)
+
+#Model Assumption Validation 
+
+#Nomality - QQ plot
+plot(model,which = 2)
+
+#Nomality - Shapiro Wilk Test
+shapiro <- shapiro.test(residuals(model))
+print(shapiro) #FTR -> Nomality is satisfied
+
+#Homogeneity of Variance
+
+#Residual vs Fitted plot
+plot(model,which = 1)
+
+#Bartlett's Test
+long_data$residuals <- residuals(model)
+
+# Create an interaction term for Method and Gender for grouping
+long_data$Group <- interaction(long_data$Method, long_data$Gender)
+
+bartlett.test(residuals ~ Group, data = long_data) #FTR Homogeneity is sastified
+
+#Run Repeated Measures Two-Way ANOVA
+model2 <- aov(IQ ~ Method * Gender * Time + Error(ID/Time), data = long_data)
+summary(model)
+summary(model2)
+
+```
