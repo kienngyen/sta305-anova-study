@@ -146,7 +146,7 @@ After running the **Shapiro-Wilk** test, the p values is less than the alpha lev
 |-----------------------------|-----------|-----------|
 | Shapiro-Wilk normality test | 0.96924   | 6.955e-08 |
 
-![](Pic10.png){#fig-qq}
+![](../output/Pic10.png){#fig-qq}
 
 ## **Homogeneity of Variance:**
 
@@ -257,7 +257,7 @@ library(emmeans)
 library(magrittr)
 
 #Load Data
-data = read.csv('Participants List cleaned.csv', header = TRUE)
+data = read.csv('../data/Participants List cleaned.csv', header = TRUE)
 male_data = subset(data, data$Gender == 'Male')
 female_data = subset(data, data$Gender == 'Female')
 
